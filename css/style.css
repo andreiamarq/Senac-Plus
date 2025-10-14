@@ -75,7 +75,7 @@ body {
 }
 
 .descricao__titulo {
-    ont-weight: 700;
+    font-weight: 700;
     font-size: 3rem;
     color: var(--branco-principal);
     margin-bottom: 0.1rem;
@@ -88,4 +88,23 @@ body {
 .secundario__botao {
     margin-top: 0.3rem;
     display: inline-block;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulo {
+    font-size: 3rem;
+}
+
+.dispositivos__lista {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.lista__item {
+    font-size: 2rem;
+    color: var(--branco-principal);
 }
